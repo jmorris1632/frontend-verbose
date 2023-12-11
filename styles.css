@@ -317,36 +317,39 @@ body{
         font-size: 17px;
         text-align: left;
     }    
-    .portfolio img{
-        right: 0px;
-        top: px;
-        width: 200px;
-        height: 150px;
-        border-radius: 20% 20% 20%; 
-        display: block;   
-        margin: 20px auto;
+
     }
-}
+
 
 @media screen and (max-width: 560px){
     .home-content h1 {
-        font-size: 25px;
+        font-size: 30px;
     }
     .home-content h3 {
-        font-size: 20px;
+        font-size: 25px;
         
     }
     .home-content p {
         font-size: 17px;
         text-align: left;
     }    
-    .portfolio img{
-        right: 0px;
-        top: 80px;
-        width: 130px;
-        height: 150px;
-        border-radius: 20% 20% 20%; 
-        display: block;   
-        margin: 20px auto;
+    .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 15%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        z-index: 0;
     }
+    .logo{
+        position: relative;
+        font-size: 20px;
+        color: #ededed;
+        text-decoration: none;
+        font-weight: 800;
+}
 }
